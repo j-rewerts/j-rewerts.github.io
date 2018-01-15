@@ -1,0 +1,12 @@
+---
+layout: default
+modal-id: 9
+date: 2017-11-01
+img: jazz.png
+alt: image-alt
+project-date: November 2017
+client: City of Edmonton
+category: Web/Mobile Application
+description: Instantly connect with City of Edmonton technical support staff. Jazz works on all your devices. On Android, iOS and in your Chrome browser, feel free to start a conversation with our knowedgeable support staff now.
+
+---
