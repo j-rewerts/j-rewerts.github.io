@@ -30,6 +30,11 @@
                                     </strong>
                                 </li>
                             </ul>
+                            <h2>Tech</h2>
+                            <hr class="star-primary">
+                            {% for tech in post.tech %}
+                            <div>{{ tech.name }}</div>
+                            {% endfor %}
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>

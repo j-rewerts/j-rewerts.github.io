@@ -8,5 +8,13 @@ project-date: January 2016
 repo: https://github.com/polyball/polyball
 role: Front-end Engineer
 description: Fast, multiplayer, physics-driven tennis in two dimensions. As players join, the game area changes shape. <br> 6 players? Hexagon. 7 players? Heptagon. 8 players? Octagon. More players, more strategies.
-
+tech:
+ - name: Express
+   icon: img/tech/expressjs.png
+ - name: Pixi.js
+   icon: img/tech/pixi.jpg
+ - name: socket.io
+   icon: img/tech/socket-io.png
+ - name: Node.js
+   icon: img/tech/nodejs.png
 ---
