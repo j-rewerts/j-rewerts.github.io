@@ -3,10 +3,10 @@ layout: default
 modal-id: 7
 date: 2016-01-01
 img: polyball2.png
-alt: image-alt
+alt: Polyball
 project-date: January 2016
-client: Personal
-category: Game Development
+repo: https://github.com/polyball/polyball
+role: Front-end Engineer
 description: Fast, multiplayer, physics-driven tennis in two dimensions. As players join, the game area changes shape. <br> 6 players? Hexagon. 7 players? Heptagon. 8 players? Octagon. More players, more strategies.
 
 ---

@@ -3,10 +3,10 @@ layout: default
 modal-id: 8
 date: 2016-10-01
 img: mailman.png
-alt: image-alt
+alt: Mailman
 project-date: October 2016
-client: City of Edmonton
-category: Web Application
+repo: https://github.com/coe-google-apps-support/Mailman
+role: Full-stack Engineer
 description: Mailman aims to make sending emails easy. Using common spreadsheet functions, customize when you want to send your emails. A powerful, easy to use mail merge solution for the City of Edmonton. Mailman guides you through the process of setting up your own mail merge. Just use our merge tags! You can use <<>> to swap out data from your Google Sheets into your emails. Supercharge your email workflow today!
 
 ---
