@@ -170,10 +170,18 @@ header .intro-text .skills {
     }
 }
 
+.navbar-brand {
+    opacity: 0;
+}
+.navbar-fixed-top.navbar-shrink .navbar-brand {
+    opacity: 1;
+}
+
 .navbar {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
+    background: #{{ site.color.primary }};
 }
 
 .navbar a:focus {
