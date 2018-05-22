@@ -4,6 +4,27 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+ :root {
+    /*
+    * Jazz colors
+    */
+    --jazz-color-1: #E00F3B;
+    --jazz-color-2: #EC3C40;
+    --jazz-color-3: #E44E47;
+    --jazz-color-4: #F43C35;
+    --jazz-color-5: #F16744;
+    --jazz-color-6: #AD5253;
+    --jazz-color-7: #CBB45A;
+    --jazz-color-8: #B2BB64;
+    --jazz-color-9: #549578;
+    --jazz-color-10: #458082;
+    --jazz-color-11: #69506D;
+}
+
+svg {
+    overflow: visible!important;
+}
+
 body {
     overflow-x: hidden;
 }
@@ -83,6 +104,8 @@ header {
     text-align: center;
     color: #fff;
     background: #{{ site.color.primary }};
+    overflow: hidden;
+    position: relative;
 }
 
 header .container {
@@ -454,3 +477,138 @@ footer .footer-below {
     transform: translateZ(0);
     -webkit-transform: translateZ(0);
 }
+
+/*
+ * Bubbles
+ */
+ 
+ @keyframes up {
+    0% {
+      opacity: 0;
+    }
+    10%, 90% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+      transform: translateY(-130%);
+    }
+  }
+  
+  @keyframes wobble {
+    33% {
+      transform: translateX(-5%);
+    }
+    66% {
+      transform: translateX(5%);
+    } 
+  }
+  .bubbles-container {
+    overflow: visible;
+    position: absolute;
+    z-index: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .bubbles-container > svg > g {
+    opacity: 0;
+    will-change: transform, opacity;
+  }
+  
+  .bubbles-container > svg > g > circle {
+    opacity: 0.5;
+    will-change: transform;
+  }
+  
+  /*
+   * Individual bubbles.
+   */
+  /* 1 */
+  .bubbles-container svg:nth-of-type(1) g {
+    animation: up 6.5s infinite; 
+  }
+  .bubbles-container svg:nth-of-type(1) g circle {
+    animation: wobble 3s infinite ease-in-out; 
+    fill: var(--jazz-color-1);
+  }
+  /* 2 */
+  .bubbles-container svg:nth-of-type(2) g {
+    animation: up 6.5s 300ms infinite; 
+  }
+  .bubbles-container svg:nth-of-type(2) g circle {
+    animation: wobble 3s 300ms infinite ease-in-out; 
+    fill: var(--jazz-color-2);
+  }
+  /* 3 */
+  .bubbles-container svg:nth-of-type(3) g {
+    animation: up 6.5s 450ms infinite; 
+  }
+  .bubbles-container svg:nth-of-type(3) g circle {
+    animation: wobble 2s 450ms infinite ease-in-out; 
+    fill: var(--jazz-color-3);
+  }
+  /* 4 */
+  .bubbles-container svg:nth-of-type(4) g {
+    animation: up 6.5s 1450ms infinite; 
+  }
+  .bubbles-container svg:nth-of-type(4) g circle {
+    animation: wobble 2s 1350ms infinite ease-in-out; 
+    fill: var(--jazz-color-4);
+  }
+  /* 5 */
+  .bubbles-container svg:nth-of-type(5) g {
+    animation: up 6.5s 750ms infinite; 
+  }
+  .bubbles-container svg:nth-of-type(5) g circle {
+    animation: wobble 2s 750ms infinite ease-in-out; 
+    fill: var(--jazz-color-5);
+  }
+  /* 6 */
+  .bubbles-container svg:nth-of-type(6) g {
+    animation: up 6.5s 2050ms infinite; 
+  }
+  .bubbles-container svg:nth-of-type(6) g circle {
+    animation: wobble 2s 2000ms infinite ease-in-out; 
+    fill: var(--jazz-color-6);
+  }
+  /* 7 */
+  .bubbles-container svg:nth-of-type(7) g {
+    animation: up 6.5s 750ms infinite; 
+  }
+  .bubbles-container svg:nth-of-type(7) g circle {
+    animation: wobble 2s 650ms infinite ease-in-out; 
+    fill: var(--jazz-color-7);
+  }
+  /* 8 */
+  .bubbles-container svg:nth-of-type(8) g {
+    animation: up 6.5s 1150ms infinite; 
+  }
+  .bubbles-container svg:nth-of-type(8) g circle {
+    animation: wobble 2s 1200ms infinite ease-in-out; 
+    fill: var(--jazz-color-8);
+  }
+  /* 9 */
+  .bubbles-container svg:nth-of-type(9) g {
+    animation: up 6.5s 1950ms infinite; 
+  }
+  .bubbles-container svg:nth-of-type(9) g circle {
+    animation: wobble 2s 2000ms infinite ease-in-out; 
+    fill: var(--jazz-color-9);
+  }
+  /* 10 */
+  .bubbles-container svg:nth-of-type(10) g {
+    animation: up 6.5s 2900ms infinite; 
+  }
+  .bubbles-container svg:nth-of-type(10) g circle {
+    animation: wobble 2s 2900ms infinite ease-in-out; 
+    fill: var(--jazz-color-10);
+  }
+  /* 11 */
+  .bubbles-container svg:nth-of-type(11) g {
+    animation: up 6.5s 3450ms infinite; 
+  }
+  .bubbles-container svg:nth-of-type(11) g circle {
+    animation: wobble 2s 3450ms infinite ease-in-out; 
+    fill: var(--jazz-color-11);
+  }
