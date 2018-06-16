@@ -7,6 +7,7 @@ alt: Jazz
 project-date: November 2017
 repo: https://github.com/coe-google-apps-support/jazz-ios
 role: Front-end Mobile Engineer
+tagline: Chat client
 description: Instantly connect with City of Edmonton technical support staff. Jazz works on all your devices. On Android, iOS and in your Chrome browser, feel free to start a conversation with our knowedgeable support staff now.
 tech:
  - name: iOS (Swift)
