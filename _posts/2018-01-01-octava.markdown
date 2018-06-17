@@ -9,6 +9,9 @@ repo: https://github.com/coe-google-apps-support/oct-portal
 role: Front-end Engineer and Kubernetes Magician
 tagline: AI-based Service Portal
 description: A fresh new way to deliver City of Edmonton services. Bleeding-edge technologies are used to deliver optimal user experience. Docker, Kubernetes, Vue.js, .NET Core, DialogFlow and Natural Language Processing come together to deliver a new chat bot focused service experience.
+skills:
+ - name: Machine Learning
+ - name: Containerization
 tech:
  - name: Vue.js
    icon: img/tech/vuejs.png
