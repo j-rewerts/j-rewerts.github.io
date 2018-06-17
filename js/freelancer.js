@@ -38,6 +38,7 @@ $('.navbar-collapse ul li a').click(function() {
 
 $(document).ready(function() {
 	$('#fullpage').fullpage({
-        loopHorizontal: false
+        loopHorizontal: false,
+        scrollOverflow: true
     });
 });
