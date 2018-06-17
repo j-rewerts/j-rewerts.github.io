@@ -11,12 +11,19 @@
             <div class="row">
                 {% for post in site.posts %}
                     <div class="row">
-                        <div class="center-container">
-                            <div class="portfolio-item">
+                        <div class="center-container row">
+                            <div class="portfolio-item row">
                                 <img src="img/portfolio/{{ post.img }}" class="project-icon col-sm-6" alt="{{ post.alt }}">
                                 <div class="col-sm-6">
                                     <h3>{{ post.title }}</h3>
-                                    <div>{{ post.tagline }}</div>
+                                    <div class="description">{{ post.description }}</div>
+                                    <ul class="skills">
+                                        {% for skill in post.skills %}
+                                            <li>
+                                                {{ skill.name }}
+                                            </li>
+                                        {% endfor %}
+                                    </ul>
                                 </div>
                             </div>
                         </div>

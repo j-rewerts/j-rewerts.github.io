@@ -1,6 +1,5 @@
 ---
 layout: default
-modal-id: 8
 date: 2016-10-01
 img: mailman.png
 alt: Mailman
