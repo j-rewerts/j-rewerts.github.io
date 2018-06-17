@@ -13,7 +13,9 @@
                     <div class="row">
                         <div class="center-container row">
                             <div class="portfolio-item row">
-                                <img src="img/portfolio/{{ post.img }}" class="project-icon col-sm-6" alt="{{ post.alt }}">
+                                <div class="col-sm-6">
+                                    <img src="img/portfolio/{{ post.img }}" alt="{{ post.alt }}" class="project-icon">
+                                </div>
                                 <div class="col-sm-6">
                                     <h3>{{ post.title }}</h3>
                                     <div class="description">{{ post.description }}</div>

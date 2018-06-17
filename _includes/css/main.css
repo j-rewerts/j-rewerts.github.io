@@ -239,6 +239,10 @@ section.success {
     padding: 128px 0px;
 }
 
+#portfolio .project-icon {
+    width: 100%;
+}
+
 #portfolio .skills li {
     color: #fff;
     text-shadow: 0 1px 0 rgba(0,0,0,.15);
@@ -252,6 +256,22 @@ section.success {
 
 #portfolio .description {
     margin: 24px 0px;
+}
+
+@media(max-width:768px) {
+    #portfolio .container {
+        padding: 0px 30px;
+    }
+
+    #portfolio .portfolio-item {
+        padding: 45px 21px 66px;
+        text-align: center;
+    }
+
+    #portfolio .portfolio-item .project-icon {
+        text-align: center;
+        width: 66%;
+    }
 }
 
 .btn-outline {
