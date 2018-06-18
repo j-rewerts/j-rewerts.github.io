@@ -20,6 +20,22 @@ color:
   secondary: 2c3e50 #FD6E8A
   secondary-dark: 233140 #A2122F
 
+techSkills:
+ - name: CSS
+   value: 60%
+ - name: HTML
+   value: 90%
+ - name: JS
+   value: 80%
+ - name: Kubernetes
+   value: 40%
+ - name: Docker
+   value: 60%
+ - name: Node.js
+   value: 60%
+ - name: C#
+   value: 50%
+
 # Footer settings
 footer:
   copyright: Jared Rewerts
