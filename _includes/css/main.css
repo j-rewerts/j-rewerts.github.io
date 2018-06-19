@@ -609,12 +609,13 @@ footer .footer-below {
 
   #about .bar {
     color: #666;
-    height: 22px;
+    height: 35px;
     position: relative;
     background-color: #eee;
     margin: 0 0 12px 0;
     align-items: flex-end;
     font-size: 11pt;
+    border-radius: 6px;
 }
 
 #about .bar span {
