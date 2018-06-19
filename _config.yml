@@ -60,3 +60,7 @@ about:
       value: 60%
     - name: C#
       value: 50%
+    - name: Mongo DB
+      value: 70%
+    - name: SQL
+      value: 50%
