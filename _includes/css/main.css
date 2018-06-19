@@ -525,3 +525,126 @@ footer .footer-below {
     animation: wobble 2s 3450ms infinite ease-in-out; 
     fill: var(--jazz-color-11);
   }
+
+  /*
+   *
+   * ABOUT
+   *
+   */
+
+  #about .row {
+      margin: 40px 0px;
+  }
+
+  /*
+   * Hexagons
+   */
+  .hexagon-wrapper {
+    text-align: center;
+    margin: 20px;
+    position: relative;
+    display: inline-block;
+  }
+  
+  .hexagon {
+    height: 100%;
+    width: calc(100% * 0.57735);
+    display: inline-block;
+  }
+  
+  .hexagon:before {
+    position: absolute;
+    top: 0;
+    right: calc((100% / 2) - ((100% * 0.57735) / 2));
+    background-color: inherit;
+    height: inherit;
+    width: inherit;
+    content: '';
+    transform: rotateZ(60deg);
+  }
+  
+  .hexagon:after {
+    position: absolute;
+    top: 0;
+    right: calc((100% / 2) - ((100% * 0.57735) / 2));
+    background-color: inherit;
+    height: inherit;
+    width: inherit;
+    content: '';
+    transform: rotateZ(-60deg);
+  }
+
+  .hexagon i {
+    position: absolute;
+    top: 27px;
+    font-size: 34pt;
+    color: #fff;
+    left: 0;
+    right: 0;
+    z-index: 1;
+  }
+
+  #about .hexagon {
+    background-color: var(--jazz-color-6);
+  }
+
+  #about .hexagon-wrapper {
+      width: 100px;
+      height: 100px;
+  }
+
+  /* Profile pic */
+
+  #about .profile img {
+    width: 250px;
+    height: 250px;
+    margin: 40px 0px;
+  }
+
+  /* Skill bars */
+
+  #about .tech-skills {
+    margin: 40px 0px;
+  }
+
+  #about .bar {
+    color: #666;
+    height: 22px;
+    position: relative;
+    background-color: #eee;
+    margin: 0 0 12px 0;
+    align-items: flex-end;
+    font-size: 11pt;
+}
+
+#about .bar span {
+    z-index: 1;
+    padding: 0 15px 0 0;
+}
+
+#about .bar.fill {
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-color: var(--jazz-color-5);
+    padding: 0;
+    opacity: 1;
+}
+
+#about .bar .tag {
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-color: var(--jazz-color-6);
+    color: #fff;
+    height: 100%;
+    width: 110px;
+    width: 70px;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

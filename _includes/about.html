@@ -1,10 +1,47 @@
 <!-- About Section -->
-<section class="success slide" id="about">
+<section class="slide" id="about">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
                 <h2>About</h2>
-                <hr class="star-light">
+                <hr class="star-primary">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-6 col-md-3" align="center">
+                <div class="hexagon-wrapper"><div class="hexagon"><i class="fas fa-eye"></i></div></div>
+                <h3>Beautiful</h3>
+                <p>I build apps that are easy to use and nice to look at.</p>
+            </div>
+            <div class="col-xs-6 col-md-3" align="center">
+                <div class="hexagon-wrapper"><div class="hexagon"><i class="fab fa-cloudscale"></i></div></div>
+                <h3>Scalable</h3>
+                <p>Containerization and orchestration take my apps to production scale.</p>
+            </div>
+            <div class="col-xs-6 col-md-3" align="center">
+                <div class="hexagon-wrapper"><div class="hexagon"><i class="fas fa-server"></i></div></div>
+                <h3>Robust</h3>
+                <p>Fault tolerance and high availability allow my apps to survive disasters.</p>
+            </div>
+            <div class="col-xs-6 col-md-3" align="center">
+                <div class="hexagon-wrapper"><div class="hexagon"><i class="fas fa-users"></i></div></div>
+                <h3>Teamwork</h3>
+                <p>Software Engineering is all about working together! I love working with others!</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 profile" align="center">
+                <img class="img-responsive" src="img/profile.png" alt="Me">
+            </div>
+            <div class="col-md-6 tech-skills">
+                {% for skill in site.about.techSkills %}
+                <div class="bar flex">
+                    <div class="bar fill" style="width:{{ skill.value }}">
+                        <div class="tag bold flex">{{ skill.name }}</div>
+                    </div>
+                    <span>{{ skill.value }}</span>
+                </div>
+                {% endfor %}
             </div>
         </div>
         <div class="row">
