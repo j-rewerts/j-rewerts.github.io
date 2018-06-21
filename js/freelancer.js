@@ -42,3 +42,7 @@ $(document).ready(function() {
         scrollOverflow: true
     });
 });
+
+function toggleNav () {
+    $('#toggle-nav').toggleClass('is-small')
+}

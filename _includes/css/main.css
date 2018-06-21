@@ -204,6 +204,27 @@ nav.sidebar {
     border-right: 1px solid #444;
 }
 
+nav.sidebar li.nav-button {
+    text-align: center;
+    font-size: 30px;
+}
+
+/* Override bootstrap default highlight */
+nav.sidebar li.nav-button a:hover {
+    color: white;
+}
+
+nav.sidebar.is-small li.nav-button span {
+    position: relative;
+    left: 77px;
+    transform: rotate(180deg);
+}
+
+nav.sidebar li.nav-button span {
+    transform: rotate(0deg);
+    transition: transform 200ms linear;
+}
+
 /*Center Icons*/
 nav.sidebar a {
     padding-right: 13px;
