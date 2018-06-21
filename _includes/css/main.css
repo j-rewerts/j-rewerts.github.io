@@ -287,8 +287,8 @@ nav.sidebar li {
 
 /* Nav NEW END */
 
-section {
-    padding: 100px 0;
+div.row div.text-center {
+    margin: 40px 0px;
 }
 
 section h2 {
