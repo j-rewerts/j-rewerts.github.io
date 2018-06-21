@@ -207,6 +207,7 @@ nav.sidebar {
 nav.sidebar li.nav-button {
     text-align: center;
     font-size: 30px;
+    display: none;
 }
 
 /* Override bootstrap default highlight */
@@ -277,6 +278,10 @@ nav.sidebar li {
     /*Show hidden items on nav*/
     nav.sidebar .forAnimate{
         opacity: 1;
+    }
+
+    nav.sidebar li.nav-button {
+        display: block;
     }
 }
 
