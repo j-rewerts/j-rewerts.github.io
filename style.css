@@ -1,3 +1,36 @@
----
-layout: style
----
+@font-face {
+  font-family: NeueHaasUnica;
+  src: url('./fonts/NeueHaasUnicaPro-Thin.otf')
+}
+
+body {
+  font-family: 'Ubuntu';
+  letter-spacing:0.05rem;
+  font-size: 1rem;
+  color: #000;
+}
+
+/* Grid */
+
+.container {
+  display: grid;
+  grid-template-columns: 25% 50% 25%;
+}
+
+.content {
+  grid-column-start: 2;
+  grid-column-end: 2;
+}
+
+.text {
+  font-weight: 700;
+  font-size: 1.3rem;
+  line-height: 2.5rem;
+}
+
+code {
+  display: inline;
+  background-color: #090909;
+  color: #fafafa;
+  padding: 0rem 0.5rem;
+}
