@@ -1,0 +1,11 @@
+@font-face {
+  font-family: NeueHaasUnica;
+  src: url('NeueHaasUnica.otf')
+}
+
+body {
+  font-family: 'NeueHaasUnica';
+  letter-spacing:0.05rem;
+  font-size: 1rem;
+  color: #000;
+}
