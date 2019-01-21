@@ -8,11 +8,25 @@ body {
   letter-spacing:0.05rem;
   font-size: 1rem;
   color: #000;
+  margin: 0px;
+}
+
+body::after {
+  content: "";
+  background-image: url('/funky-texture.jpg');
+  opacity: 0.1;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
 }
 
 /* Nav */
 .nav-box {
-
+  background-color: #fafafa;
+  padding: 0.5rem;
 }
 
 .nav-item {
@@ -43,6 +57,8 @@ body {
   grid-column-end: 2;
 }
 
+/* Text */
+
 .text {
   font-weight: 700;
   font-size: 1.3rem;
@@ -55,3 +71,5 @@ code {
   color: #fafafa;
   padding: 0rem 0.5rem;
 }
+
+/* Logo */
