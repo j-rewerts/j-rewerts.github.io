@@ -21,6 +21,16 @@ body {
   text-decoration-line: none;
 }
 
+.nav-item:hover {
+  color: black;
+  text-decoration-line: underline;
+}
+
+.nav-item.active {
+  color: black;
+  text-decoration: underline;
+}
+
 /* Grid */
 
 .container {
