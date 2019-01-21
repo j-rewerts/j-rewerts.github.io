@@ -10,6 +10,17 @@ body {
   color: #000;
 }
 
+/* Nav */
+.nav-box {
+
+}
+
+.nav-item {
+  margin: 0.5rem;
+  color: #555555;
+  text-decoration-line: none;
+}
+
 /* Grid */
 
 .container {
