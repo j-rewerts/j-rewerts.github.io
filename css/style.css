@@ -77,6 +77,11 @@ code {
   position: relative;
   width: 5rem;
   height: 5rem;
+  transition: width 200ms ease-in-out;
+}
+
+.logo-container:hover {
+  width: 15rem;
 }
 
 .logo-left {
