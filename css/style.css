@@ -73,3 +73,65 @@ code {
 }
 
 /* Logo */
+.logo-container {
+  position: relative;
+  width: 5rem;
+  height: 5rem;
+}
+
+.logo-left {
+  position: absolute;
+  border-top: #000 solid;
+  border-left: #000 solid;
+  left: 0;
+  top: 0;
+  width: 5.5rem;
+  height: 5.5rem;
+}
+
+.logo-right {
+  position: absolute;
+  border-bottom: #000 solid;
+  border-right: #000 solid;
+  bottom: 0;
+  right: 0;
+  width: 5.5rem;
+  height: 5.5rem;
+}
+
+.logo-slash {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transform-origin: 0 50%;
+  transform: translateX(50%) rotate(45deg);
+  border-left: #000 solid;
+}
+
+.logo-j {
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  top: 0;
+  left: 0;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.logo-r {
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  bottom: 0;
+  right: 0;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.logo-text {
+  font-weight: 780;
+  font-size: 1.8rem;
+  line-height: 2.5rem;
+}
